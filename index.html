@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Uvica</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-green">
+	 <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+		 
+	
+		 <section class="panel panel-left panel-cover">
+			 
+			 <div class="block bg-blue-menu"><em class="circle-menu"> <img src="img/uvica.jpeg" class="img-fluid" width="100"> </em>
+			   <h2 class="block-title">UVICA</h2>
+				 
+			</div>
+			 
+			 <div class="list media-list">
+			 	<ul>
+				 	<li>
+						<a href="/perfil/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">person</i>
+							</div>
+							<div class="item-inner">
+								Perfil
+							</div>
+						</a>
+					
+					</li>
+					
+					<li>
+						<a href="/eventos/" class="item-link item-content panel-close">
+							<div class="item-media">
+							<i class="material-icons">event</i>
+							</div>
+							<div class="item-inner">
+								Eventos
+							</div>
+						</a>
+					
+					</li>
+					
+					<li>
+						<a href="/afiliados/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">people</i>
+							</div>
+							<div class="item-inner">
+								Afiliados
+							</div>
+						</a>
+					
+					</li>
+					
+					<li>
+						<a href="/uvicanights/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">party_mode</i>
+							</div>
+							<div class="item-inner">
+								Uvica Nights
+							</div>
+						</a>
+					
+					</li>
+					<li>
+						<a href="/compra boletos/" class="item-link item-content panel-close">
+							<div class="item-media">
+							<i class="material-icons">event</i>
+							</div>
+							<div class="item-inner">
+								Compra Boletos
+							</div>
+						</a>
+					
+					</li>
+					<li>
+						<a href="/team/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">person</i>
+							</div>
+							<div class="item-inner">
+								Team
+							</div>
+						</a>
+					
+					</li>
+					
+					<li>
+						<a href="/home/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">trending_flat</i>
+							</div>
+							<div class="item-inner">
+								Log Out
+							</div>
+						</a>
+					
+					</li>
+					
+				 </ul>
+			 </div>
+			 
+		 </section>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+					<a class="link panel-open" data-panel="left"><i class="material-icons">
+menu
+</i></a>
+				</div>
+              <div class="title">
+                <p> HOME</p>
+              </div>
+            </div>
+          </nav>
+			
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+			  
+			  			<div class="swiper-container swiper-init" data-pagination='{"el": ".swiper-pagination"}' data-space-between="0" data-slides-per-view="0">
+    <!-- Slides wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+			<img src="img/entrada.jpg" alt="" class="img-fluid" width="500" height="800">
+		</div>
+    </div>
+    <!-- Pagination, if required -->
+    <div class="swiper-pagination"></div>
+</div>
+			  			<h2 class="block-title">UVICA</h2>
+  			<div class="block block-strong">
+			  <p>Puedes ser parte de los eventos a nivel nacional</p>
+				  
+				
+			  </div>
+			  
+		
+			  
+          </div> <!-- /page-content -->
+			
+		<!-- Los popups van después de /page-content -->
+		
+			</article>
+			
+			  <article class="login-screen modal-in">
+				<div class="view">
+				  <div class="page">
+					<div class="page-content login-screen-content">
+					  <div class="login-screen-title"> <img src="img/uvica.jpeg" class="img-fluid" alt="uvica" width="100"> </div>
+					  <form>
+						<div class="list">
+						  <ul>
+							<li class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">Username</div>
+								<div class="item-input-wrap">
+								  <input type="text" name="username" placeholder="Your username">
+								</div>
+							  </div>
+							</li>
+							<li class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">Password</div>
+								<div class="item-input-wrap">
+								  <input type="password" name="password" placeholder="Your password">
+								</div>
+							  </div>
+							</li>
+						  </ul>
+						</div>
+						<div class="list">
+						  <ul>
+							<li><a class="item-link list-button" href="#">Sign In</a></li>
+						  </ul>
+						  <div class="block-footer">
+							<p>La App que no deja que te pierdas nada.</p>
+							<p><a class="link login-screen-close login-screen-close" href="#">Close Login Screen</a></p>
+						  </div>
+						</div>
+					  </form>
+					</div>
+				  </div>
+				</div>
+  </article>
+ 
+			
+        </section>
+      </div>
+    </div>
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>
